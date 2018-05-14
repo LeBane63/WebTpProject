@@ -1,0 +1,56 @@
+.sectionHeader{
+	
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#headSec {
+	text-align: center;
+}
+
+nav {
+	height : auto;
+	width: auto;
+	font-size:15px;
+}
+
+ul{
+	display : none;
+}
+
+nav:hover ul {
+	display : inline;
+}
+
+img{
+	
+	height : 120px;
+	width : 60px;
+	transition : 1s;
+	
+}
+
+img:hover {
+	height : 200px;
+	width : 100px;
+}
+
+table {
+	border-spacing : 10px;
+}
+
+aside {
+	height: auto;
+	width : auto;
+	font-size : 15px;
+}
+
+tr{
+	display:none;
+}
+
+table:hover tr{
+	display: block;
+}
+

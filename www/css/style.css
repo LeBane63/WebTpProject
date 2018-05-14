@@ -1,0 +1,154 @@
+
+
+.main {
+	text-align: center;
+	height : 10%;
+	background-image : url('../images/univers.jpg');
+}
+
+.main a{
+	
+	color : white;
+}
+.sectionHeader{
+	
+	
+	perspective : 300px;
+	text-align : center;
+	width : auto;
+	height: auto;
+	margin-left : 25%;
+	margin-right: 25%;
+}
+
+#headSec {
+	
+	display: inline-block;
+    animation: mymove 8s infinite;
+	animation-delay : 1s;
+	position : relative;
+}
+
+@keyframes mymove {
+    50% {transform: rotateY(360deg);}
+}
+
+body {
+	
+	background-color : grey;
+	
+}
+
+article {
+	text-align : center;
+	position : relative;
+	margin : auto;
+}
+
+.footer {
+	position: absolute;
+	width : 99%;
+	border: 1px solid #2A1F1F;
+	text-align: center;
+	bottom: 0;
+	background : white;
+}
+
+.articleFooter {
+	text-align : center;
+	border : 1px solid black;
+	width : 50%;
+	margin-left: 25%;
+	
+	
+}
+
+
+
+nav {
+	background: linear-gradient(to right,rgb(181, 179, 178),rgb( 247, 245, 245 ));
+	border-radius: 30px;
+	position: absolute;
+	top : 10%;
+	margin-top : 60px;
+	/*height : 50%;*/
+	/* Ici la nav est la flex-box demandé dans le sujet*/
+	display : flex;
+	flex-direction : column;
+	justify-content : space-between;
+	border : 1px solid black;
+	font-size : 20px;
+}
+
+a {
+	
+	color : black;
+	text-decoration : none;
+	transition : all 1s ease-out;
+}
+a:hover , a:focus {
+	color : #333;
+	background-color : #fff;
+}
+
+.titreMenu{
+	text-align : center;
+	color : white;
+}
+
+.inscription {
+	
+	list-style : none;
+
+}
+
+.inscription a{
+	
+	color : black;
+	text-decoration : underline;
+}
+
+li {
+	margin-bottom : 30px;
+	list-style-image : url('../images/atome.jpg');
+	
+}
+
+table {
+	border-spacing : 20px;
+	color : black;
+}
+
+tr{
+	color : black;
+	
+}
+
+img{
+	
+	height : 400px;
+	width : 250px;
+	transition : 1s;
+}
+
+img:hover {
+	height : 500px;
+	width : 300px;
+}
+
+.asideLink{
+	text-decoration : underline overline;
+}
+
+aside {
+	background: linear-gradient(to right,rgb(181, 179, 178),rgb( 247, 245, 245 ));
+	border-radius: 30px;
+	position: absolute;
+	right: 0;
+	margin-right : 10px;
+	top: 15%;
+	/*height : 50%;*/
+	margin-top : 20px;
+	border : 1px solid black;
+	font-size : 20px;
+}

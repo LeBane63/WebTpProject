@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+	<head>
+		<title>Inscription reçu</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<meta name="description" content="Simple page to test CGI." />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="Content-Language" content="fr" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<link rel="start" title="Accueil" href="index.xhtml" />
+		
+	</head>
+	
+	<body>
+	  
+		<h1> Votre inscription est réalisé </h1>
+
+		<p>Vos logs :</p>
+		<ul>
+			<li>Nom d'utilisateur: ${username}</li>
+			<li>Mail: ${useremail}</li>
+			<li>Mot de passe: ${userpwd}</li>
+			<li>Prenom: ${firstname}</li>
+			<li>Nom: ${lastname}</li>
+			
+		</ul>
+		
+		
+		<h2><a href="/">Retour &agrave; la page d'accueil</a></h2>
+	
+	</body>
+
+</html>
+

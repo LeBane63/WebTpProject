@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/inscription.css">
+	<link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/petitOrdi.css" /> 
+	<link rel="stylesheet" media="screen and (max-width: 500px)" href="../css/phone.css" />
+
+        <meta  charset="utf-8" />
+		
+        <title>TheBigBangTheory</title>
+    </head>
+
+    <body>
+	<header class="main">
+		<h4><a class="lienAccueil" href="../index.html"> Accueil </a></h4>
+		<h1><a class="lienAcceuil" href="../index.html">The Big Bang Theory! Un série où on rigole.</a></h1>
+	</header>
+
+	<section>
+		<header class="sectionHeader" >
+			<h2 id="headSec" >Inscription</h2>
+		</header>
+		<form id="form" method="post" action="../htbin/register.py">
+			
+				
+			<label class="form_col" for="lastname">Nom : </label>
+			<input id="lastname" name="lastname" type="text" placeholder="Votre nom"/>
+			<span class="erreur">Le nom ne peut pas être vide</span>
+				
+			<label class="form_col" for="firstname">Prenom : </label>
+			<input id="firstname" name="firstname" type="text" placeholder="Votre prénom"/>
+			<span class="erreur">Le prénom ne peut pas être vide</span>
+				
+			<label class="form_col" for="username">Login : </label>
+			<input id="username" name="username" type="text" placeholder="Login"/>
+			<span class="erreur">Le login doit contenir au moins 6 caractères</span>
+				
+			<label class="form_col" for="userpwd">Mot de passe : </label>
+			<input id="userpwd" name="userpwd" type="password" placeholder="Mot de passe"/>
+			<span class="erreur">Le mot de passe doit faire au moins 8 caractères, contenir 1 majuscule, 1 minuscule et 1 chiffre.</span>
+				
+			<label class="form_col" for="mdpVerif">Confirmer le mot de passe : </label>
+			<input id="mdpVerif" type="password"/>
+			<span class="erreur">Les mots de passes doivent correspondre</span>	
+				
+			<label class="form_col" for="useremail">Adresse Mail : </label>
+			<input id="useremail" name="useremail" type="text" placeholder="exemple@exemple.fr"/>
+			<span class="erreur">L'adresse mail doit être valide</span>
+				
+			<footer class="articleFooter">
+				<input id="submit" type="submit" value="M'inscrire"/>
+			</footer>
+		</form>
+	</section>
+
+	<nav>
+		<h3 class="titreMenu"> Menu </h3>
+		<ul>
+			<li class="inscription"><a href="./html/inscription.html">S'inscrire</a></li>
+			<li><a href="../html/amy.html">Amy</a></li>
+			<li><a href="../html/howard.html">Howard</a></li>
+			<li><a href="../html/leonard.html">Leonard</a></li>
+			<li><a href="../html/penny.html">Penny</a></li>
+			<li><a href="../html/rajesh.html">Raj</a></li>
+		</ul>
+	</nav>
+
+	<footer class="footer">
+		Copyright Antunes Benjamin
+	</footer>
+	<script  src="../js/inscription.js"></script>
+    </body>
+</html>
+
+
